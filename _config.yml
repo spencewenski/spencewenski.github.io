@@ -1,0 +1,11 @@
+# Site settings
+title: spencewenski
+description: > # this means to ignore newlines until "baseurl:"
+  Run. Code. Sleep. Repeat
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: spencewenski
+github_username:  spencewenski
+
+# Build settings
+markdown: kramdown
