@@ -1,8 +1,12 @@
 ---
 layout: post
 title:  "What's in a game: replay value"
-categories: thoughts_on_game_design
-tags: games game_design writing_201
+categories:
+- thoughts_on_game_design
+tags:
+- games
+- game_design
+- writing_201
 ---
 
 *This is the second in a series of posts on important aspects of game design. In each, I answer the question in the general case, then discuss some specific examples from games that I’ve played.*

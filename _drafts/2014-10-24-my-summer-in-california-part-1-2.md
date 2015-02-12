@@ -1,18 +1,15 @@
 ---
-author: spencewenski
 comments: true
-date: 2014-10-24 03:01:20+00:00
 layout: post
 slug: my-summer-in-california-part-1-2
-title: 'My summer in California: part 1'
-wordpress_id: 50
+title: "My summer in California: part 1"
 categories:
 - travel
 tags:
 - summer_2014
 ---
 
-In which I describe my place of residence.<!-- more -->
+In which I describe my place of residence.
 
 
 ## The apartment
