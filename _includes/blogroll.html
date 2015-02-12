@@ -1,0 +1,8 @@
+<div class="blogroll">
+<h4>Blogroll</h4>
+<ul>
+{% for link in site.data.blogroll %}
+  <li><a href="{{link.url}}">{{link.text}}</a></li>
+{% endfor %}
+</ul>
+</div>

@@ -8,8 +8,9 @@
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <!-- <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li> -->
         </ul>
+        {% include blogroll.html %}
       </div>
 
       <div class="footer-col  footer-col-2">
@@ -48,8 +49,9 @@
       <div class="footer-col  footer-col-3">
         <p class="text">{{ site.description }}</p>
       </div>
+
     </div>
 
-  </div>
+  </div> <!-- wrapper -->
 
 </footer>
