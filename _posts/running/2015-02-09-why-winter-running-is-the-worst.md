@@ -1,6 +1,4 @@
 ---
-comments: true
-layout: post
 title: "Winter running is the worst"
 date: 2015-02-09 9:00:00
 categories:
