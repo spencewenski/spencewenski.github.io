@@ -12,11 +12,15 @@ tags:
 
 *This is the first in a series of posts on important aspects of game design. In each, I answer the question in the general case, then discuss some specific examples from games that I’ve played.*
 
+
 One might think that making a game challenging is counter-intuitive, “I want it to be easy so I can win!” Well, that’s one way to think about it, but allow me to explore the opposing viewpoint.
+
 
 In life, one encounters many challenging things: school, interviews, competing in athletics. Sure, these things are difficult, but we don’t do them just for the challenge; we do them for the sense of accomplishment and any accompanying rewards (diploma, job, or medal, respectively) that come with the completion of the challenge.
 
+
 So it is with games. They’re not challenging just for the sake of being difficult, they’re challenging to engender in the player a sense of accomplishment and self-satisfaction upon the completion of a level, challenge, or the entire game. It is this sense of accomplishment that the game designer hopes to instil in the player, and challenging gameplay is one of the ways this can be achieved.
+
 
 ### Minesweeper
 Take Minesweeper, for example. Minesweeper looks like an incredibly simple game, and it is, but solving a board quickly takes a lot of practice and strong reasoning skills. This challenge, in spite of the relatively simple mechanics, makes Minesweeper fun. Now, I’m not saying it’s the most fun game ever, but the satisfaction of solving a large board can be almost tangible. And when you lose, the defeat feels all too real, as well.
