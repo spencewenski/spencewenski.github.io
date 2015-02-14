@@ -1,6 +1,4 @@
 ---
-comments: true
-layout: post
 title: "What's in a game: the challenge"
 categories:
 - thoughts_on_game_design
