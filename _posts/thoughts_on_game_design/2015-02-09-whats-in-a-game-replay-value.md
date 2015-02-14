@@ -2,7 +2,7 @@
 comments: true
 layout: post
 title:  "What's in a game: replay value"
-date: 2014-10-24 03:01:20+00:00
+date: 2014-10-24 04:00:00
 categories:
 - thoughts_on_game_design
 tags:

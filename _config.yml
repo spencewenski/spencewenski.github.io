@@ -7,6 +7,8 @@ url: "http://spencewenski.github.io" # the base hostname & protocol for your sit
 twitter_username: spencewenski
 github_username:  spencewenski
 
+# timezone: America/New_York
+
 defaults:
   -
     scope:
