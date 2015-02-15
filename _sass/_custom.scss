@@ -20,3 +20,18 @@ ul.simple-list {
 .top-margin {
   margin-top: 30px;
 }
+
+.navbar {
+  margin: 0 0 0 0;
+}
+
+// change container width
+@media (min-width: 1200px) {
+  .container {
+    width: 1030px;
+  }
+}
+
+.container-fluid {
+  padding: 0 0 0 0;
+}
