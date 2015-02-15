@@ -13,8 +13,11 @@ if slug == '' or name == '':
   sys.exit(0)
 
 # create tag/category dir, then create tag/category page
-if not os.path.exists(tag_or_category):
+try:
   os.makedirs(tag_or_category)
+except OSError:
+  if not os.path.isdir(tag_or_category):
+    raise
 category_page = open(tag_or_category +'/' + slug + '.md', 'w')
 category_page.write('---\n')
 category_page.write('layout: blog_by_' + tag_or_category + '\n')
@@ -23,8 +26,11 @@ category_page.write('permalink: ' + tag_or_category + '/' + slug + '/\n')
 category_page.write('---\n')
 
 # create _data/categories if it doesn't exist, then append category to the list
-if not os.path.exists('_data'):
+try:
   os.makedirs('_data')
+except OSError:
+  if not os.path.isdir('_data'):
+    raise
 file_name = '_data/categories.csv' if tag_or_category == 'category' else '_data/tags.csv'
 file_exists = os.path.isfile(file_name)
 data_categories = open(file_name, 'a')
