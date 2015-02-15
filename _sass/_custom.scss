@@ -1,9 +1,22 @@
-.blogroll, .categories {
-  & > h4,
-  & > ul {
+.blogroll, .categories-list, .tags-list {
+  & > h4 {
     margin: 0 0 0 0;
   }
   & > ul {
     list-style: none;
+    margin: 0 0 20px 0;
   }
+}
+
+ul.simple-list {
+  margin: 0 0 0 0;
+  list-style: none;
+}
+
+.side-bar {
+  float: right;
+}
+
+.top-margin {
+  margin-top: 30px;
 }

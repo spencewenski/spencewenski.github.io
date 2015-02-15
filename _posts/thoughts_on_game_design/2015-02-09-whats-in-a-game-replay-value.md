@@ -1,6 +1,6 @@
 ---
-title:  "What's in a game: replay value"
-date: 2015-02-09 04:00:00
+title: "What's in a game: replay value"
+date: 2015-02-09 16:00:00
 categories:
 - thoughts_on_game_design
 tags:
@@ -14,6 +14,7 @@ tags:
 
 Let's talk about replay value in video games. For anyone unfamiliar with the concept, replay value is the value that is added to a game when it is played after its first completion. This is, I think, one of the most important aspects of game design. If your game has good replay value, then your players will want to play it multiple times, it will be on their minds longer, and they might even be more likely to recommend the game to their friends.
 
+<!--more-->
 
 Okay, so now we have an idea of what replay value is all about, but how does one create a game with great replay value? Well, lets run through a few common methods and an example of each in action.
 

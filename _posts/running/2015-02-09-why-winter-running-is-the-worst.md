@@ -1,6 +1,6 @@
 ---
 title: "Winter running is the worst"
-date: 2015-02-09 9:00:00
+date: 2015-02-09 21:00:00
 categories:
 - running
 tags:
@@ -8,7 +8,9 @@ tags:
 - writing_201
 ---
 
-Let’s talk (read: rant) about winter running and why it’s the worst.<!-- more -->
+Let’s talk (read: rant) about winter running and why it’s the worst.
+
+<!--more-->
 
 First, it’s cold out there! In the summer you can run in shorts and often shirtless. Try that during a Michigan winter and you’ll die!! Okay, you might not die, but you’ll be very uncomfortable. So you put on your running tights, dry-fit, windbreaker, hat, and gloves, and you’re usually ready to go. Most days, this is sufficient; you get out on your run and it really doesn’t feel that cold. However, you still had put on all those stupid layers just so you don’t freeze on your run. Plus, there are days where it get ridiculously cold outside, like below 0F windchill cold. It’s days like that that I hate the most; I put on an extra jacket, another pair of gloves, and maybe even a [neck gaiter](http://www.bulabula.com/product/typhoon-therma-fleece-neck-gator-2/).
 

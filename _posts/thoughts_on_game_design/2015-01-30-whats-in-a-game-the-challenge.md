@@ -13,6 +13,7 @@ tags:
 
 One might think that making a game challenging is counter-intuitive, “I want it to be easy so I can win!” Well, that’s one way to think about it, but allow me to explore the opposing viewpoint.
 
+<!--more-->
 
 In life, one encounters many challenging things: school, interviews, competing in athletics. Sure, these things are difficult, but we don’t do them just for the challenge; we do them for the sense of accomplishment and any accompanying rewards (diploma, job, or medal, respectively) that come with the completion of the challenge.
 

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% for tag in site.data.tags %}
+  {% if tag.slug == page.tag %}
+    <h1>{{ tag.name }}</h1>
+  {% endif %}
+{% endfor %}
+<ul class="simple-list">
+  {% if site.tags[page.tag] %}
+    {% for post in site.tags[page.tag] %}
+      {% include post_list_item.html %}
+    {% endfor %}
+  {% else %}
+    <li><p>There are no posts for this tag.</p></li>
+  {% endif %}
+</ul>

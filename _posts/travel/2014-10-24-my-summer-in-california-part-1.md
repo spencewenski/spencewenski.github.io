@@ -8,6 +8,8 @@ tags:
 
 In which I describe my place of residence.
 
+<!--more-->
+
 ## The apartment
 ![Inside of the apartment][apartment-image]
 

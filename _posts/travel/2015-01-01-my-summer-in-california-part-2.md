@@ -10,6 +10,8 @@ In which I recall intern activities organized by Box.
 
 Throughout the summer, Box organized a number of activities for the interns. Each of these was a great opportunity to hang out with fellow interns outside of work.
 
+<!--more-->
+
 ## Bowling
 This was one of the few events where our mentors were also invited. So, this provided a unique opportunity to hang out and talk with ours and other interns' mentors outside of work. Also, there were unlimited pizzas and libations.
 

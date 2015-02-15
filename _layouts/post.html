@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+
+{% include gen_tags.html %}
+{% include gen_categories.html %}
+
 <div class="post">
 
   <header class="post-header">
@@ -11,6 +15,10 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+
+  <!-- categories and tags -->
+  <p>Categories: {{ categories_content }}</p>
+  <p>Tags: {{ tags_content }}
 
   {{ % if page.comments % }}
     <div id="disqus_thread"></div>

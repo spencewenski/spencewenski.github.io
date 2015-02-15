@@ -11,6 +11,8 @@ tags:
 
 If you're like me, you already know why MHacks is the best. But for everyone else, let me explain:
 
+<!--more-->
+
 MHacks is like being a kid in a candy shop for 36 hours straight, with no adults to tell you what to do. MHacks is like being at an amusement park where everything is free and the are no lines (except for food, I guess; the like for food is always long...). Anyway, MHacks is like a 36 hour programming competition where bleeding edge, high-tech products are everywhere, and everyone there is better than you at something, and you just want to talk to everyone you see. See? It's the best.
 
 Here's a rundown of my experience at this semester's MHacks:

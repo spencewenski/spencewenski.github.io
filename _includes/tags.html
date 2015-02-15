@@ -1,0 +1,13 @@
+<div class="tags-list">
+<h4>Tags</h4>
+<ul>
+{% for site_tag in site.tags %}
+  {% for tag in site.data.tags %}
+    {% if tag.slug == site_tag[0] %}
+      <!-- tag (count) -->
+      <li><a href="/tag/{{ tag.slug }}">{{ tag.name }}</a> ({{ site_tag[1].size }})</li>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>
+</div>

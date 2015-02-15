@@ -9,6 +9,8 @@ github_username:  spencewenski
 
 # timezone: America/New_York
 
+excerpt_separator: <!--more-->
+
 defaults:
   -
     scope:
