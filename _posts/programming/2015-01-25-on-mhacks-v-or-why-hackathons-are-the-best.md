@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "On MHacks V (or, why hackathons are the best)"
 categories:
 - programming

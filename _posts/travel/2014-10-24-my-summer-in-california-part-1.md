@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "My summer in California: part 1"
 categories:
 - travel
@@ -10,7 +11,7 @@ In which I describe my place of residence.
 
 <!--more-->
 
-## The apartment
+### The apartment
 ![Inside of the apartment][apartment-image]
 
 It was located above a soda shop called The Fizzery, and the entrance to the apartment was located down the back alley.
@@ -19,7 +20,7 @@ It was located above a soda shop called The Fizzery, and the entrance to the apa
 
 It wasn't quite as sketchy as it looks. The graffiti may speak on the contrary, but graffiti is part of the culture of this neighborhood, and a lot of it is actually pretty artistic.
 
-## The neighborhood
+### The neighborhood
 The apartment was located in the Mission District in San Francisco. The Mission is home to some of the best Hispanic cuisine in the country, including two of the top ten taquerias in the country: La Taqueria and Taquerias El Farolito, both of which were within two blocks of the apartment. Needless to say, I ate at these restaurants at least once a week.
 
 ![The super burrito from El Farolito. It weighs in at a glorious 1.6 pounds.][super-burrito-image]
