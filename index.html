@@ -7,9 +7,51 @@ layout: default
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    <!-- This loops through the paginated posts -->
+    {% for post in paginator.posts %}
       {% include post_list_item.html %}
     {% endfor %}
   </ul>
 
+  <nav>
+    <ul class="pagination">
+      <!-- previous -->
+      {% if paginator.previous_page %}
+      <li>
+        <a href="{{ paginator.previous_page_path }}" aria-label="Previous">
+          <span class="glyphicon glyphicon-triangle-left"></span>
+        </a>
+      </li>
+      {% else %}
+      <li class="disabled">
+        <a href=""><span class="glyphicon glyphicon-triangle-left"></span></a>
+      </li>
+      {% endif %}
+
+      <!-- pages -->
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <li class="active"><a href="">{{ page }}</a></li>
+        {% elsif page == 1 %}
+          <li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+        {% else %}
+          <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+        {% endif %}
+      {% endfor %}
+
+      <!-- next -->
+      {% if paginator.next_page %}
+      <li>
+        <a href="{{ paginator.next_page_path }}" aria-label="Next">
+          <span class="glyphicon glyphicon-triangle-right"></span>
+        </a>
+      </li>
+      {% else %}
+      <li class="disabled">
+        <a href=""><span class="glyphicon glyphicon-triangle-right"></span></a>
+      </li>
+      {% endif %}
+
+    </ul>
+  </nav>
 </div>

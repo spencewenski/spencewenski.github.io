@@ -11,6 +11,8 @@ github_username:  spencewenski
 
 excerpt_separator: <!--more-->
 
+paginate: 2
+
 defaults:
   # posts
   -
@@ -27,5 +29,6 @@ defaults:
     values:
       layout: "post"
       comments: "false"
+
 # Build settings
 markdown: kramdown
