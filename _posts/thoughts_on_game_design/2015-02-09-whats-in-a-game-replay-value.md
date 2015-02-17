@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "What's in a game: replay value"
 date: 2015-02-09 16:00:00
 categories:

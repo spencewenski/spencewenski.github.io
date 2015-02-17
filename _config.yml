@@ -12,13 +12,20 @@ github_username:  spencewenski
 excerpt_separator: <!--more-->
 
 defaults:
+  # posts
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      # path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
       comments: "true"
-
+  # drafts
+  - scope:
+      # path: ""
+      type: "drafts"
+    values:
+      layout: "post"
+      comments: "false"
 # Build settings
 markdown: kramdown

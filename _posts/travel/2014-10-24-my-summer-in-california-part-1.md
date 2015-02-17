@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "My summer in California: part 1"
 categories:
 - travel
