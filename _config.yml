@@ -11,7 +11,7 @@ github_username:  spencewenski
 
 excerpt_separator: <!--more-->
 
-paginate: 2
+paginate: 10
 
 defaults:
   # posts
