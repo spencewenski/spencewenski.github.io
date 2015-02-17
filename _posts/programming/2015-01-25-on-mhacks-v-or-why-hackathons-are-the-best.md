@@ -21,11 +21,9 @@ It started at the opening ceremonies with a speech from the creator of the Magic
 
 So for the next 36 hours (minus a few for sleep), we worked on our app. We gathered the data we would need for the demo, whipped up an Express api, [transformed an existing implementation of Dijkstra's algorithm](https://github.com/andrewhayward/dijkstra) into a Node module, hacked together a front-end using [Mapbox](https://www.mapbox.com) and some custom controllers, and voilà, we had our app. The only thing left to do was find a place to host it. Since Microsoft was there promoting their [Azure](http://azure.microsoft.com/en-us/) service, we went with that (and aside from a couple issues with the way our git repo was set up, it was actually pretty painless). For anyone interested in more detail, the code is hosted on my [GitHub](https://github.com/spencewenski/mhacksv).
 
-![Strol screenshot]({{ site.url }}/assets/strol_screenshot.png)
+[![Strol screenshot][strol-image-thumb]][strol-image]
 
 At the end of the 36 hours, the judges deliberated, chose the top ten finalists, and those ten teams demonstrated their projects at Rackham. During set up and other delays, there were rap battles, [Rue whistles](http://youtu.be/CCu_-bIdHtc) throughout the audience, and probably the worst rendition of "Let it go" I've ever heard (and since it was performed impromptu by a bunch of engineers, I'm not surprised). Anyway, here are the top ten projects:
-
-
 
 	
   * [A Tango Vision](http://challengepost.com/software/a-tango-vision) - an motley of technologies combined to create a 3D projector
@@ -76,3 +74,8 @@ And here are some of my personal favourites, some of which won prizes, others of
 To check out the rest of the projects, visit the [MHacks V page on ChallengPost](http://mhacksv.challengepost.com/).
 
 So yeah, it was a great time. Getting to spend the weekend working on a random project with other brilliant engineers, surrounded by even more brilliant engineers, is basically the dream. I loved every minute of it and I can't wait for MHacks VI.
+
+
+
+[strol-image]: http://i.imgur.com/cWBsND7.png
+[strol-image-thumb]: http://i.imgur.com/cWBsND7h.png
