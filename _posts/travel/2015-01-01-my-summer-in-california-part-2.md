@@ -18,7 +18,7 @@ This was one of the few events where our mentors were also invited. So, this pro
 ### Carnival
 In the third week, Box put on a carnival in the lunch room, complete with carnival foods, games, tickets, and prizes. The goal was to win tickets by playing the games, then enter your tickets into the raffle for the prizes, which included an iPad mini. One of the said games was probably the most impossible ring toss ever conceived.
 
-![The most impossible ring toss game ever conceived.][ring-toss-image]
+{% include figure.html description="The most impossible ring toss game ever conceived." figure_url="http://www.fiesta4kids.com/sites/default/files/bottle_ring_3x3.jpg" %}
 
 This was difficult for a multitude of reasons, foremost of which is the fact that if you actually managed to hook the ring over the lip of one of the bottles, the ring didn't fit over the bulge in the bottle's neck. The consequence of this being that if the ring landed with even a small amount of force, it would bounce right off the bulge and then right off the neck. This game turned out to be _so_ difficult, in fact, that 'ref' decided to increase the game's ticket payout every time someone tried and failed to win. With stakes that high, how could I _not_ dedicate my entire carnival experience to trying to win this god-forsaken game? So, after watching mine and multiple others' rings bounce fruitlessly off the bottles, to everyone's general fury and disappointment, the payout reached about 40 tickets. It was at this time that I took my final turn. I grabbed my stack of rings, stepped up to the line, and zoned in on my goal.  I felt my arm swing, the ring sailed from my hand into the air, through the air, and landed perfectly over the lip of a bottle. I did it! All 40 tickets were mine! Mwahaha!!! ... Woah, sorry, I got a little excited. Anyway, I won all 40 tickets, put most of them in the raffle for the iPad, and ended up winning the iPad (40 tickets out of about 80 is pretty good odds), which I gave to my mom when I got home at the end of the summer. All in all, it was a good day. :)
 
@@ -31,7 +31,8 @@ This one is pretty self-explanatory. After work one day, we road the Caltrain to
 ### Exploratorium
 This was probably the coolest intern event of the summer. After work, and after eating dinner at Pier 23 restaurant, we made our way to the [Exploratorium](http://www.exploratorium.edu/) at Pier 15. In case you've never been, the Exploratorium is an exploratory, hands-on science museum. As such, all of the exhibits were hands-on experiments and demonstrations of different scientific principles. I highly recommend going; it's highly entertaining and educational. For those interested, the following is an enumeration of a subset of the exhibits: pedaling a modified bicycle to power light bulbs and miniature fans; dropping magnetized plates through copper plates (a demonstration of [Lenz's Law](http://video.mit.edu/watch/physics-demo-lenzs-law-with-copper-pipe-10268/)); a [kinetic toothpick sculpture](http://youtu.be/OG5DkJWbeEg); colored shadows; and a kinematic strobe light sculpture (similar to [this](http://youtu.be/6gEnB0dBoFQ)).
 
-![mind = blown][colored-shadows-image]
+{% include figure.html description="mind = blown" figure_url="http://www.exploratorium.edu/history/palace/images/hands.jpg" %}
+
 
 [ring-toss-image]: http://www.fiesta4kids.com/sites/default/files/bottle_ring_3x3.jpg
 [colored-shadows-image]: http://www.exploratorium.edu/history/palace/images/hands.jpg
