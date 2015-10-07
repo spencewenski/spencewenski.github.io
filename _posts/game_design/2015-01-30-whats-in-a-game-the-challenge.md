@@ -1,7 +1,7 @@
 ---
 title: "What's in a game: the challenge"
 categories:
-- thoughts_on_game_design
+- game_design
 tags:
 - games
 - game_design
