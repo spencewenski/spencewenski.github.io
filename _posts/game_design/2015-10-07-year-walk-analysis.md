@@ -15,10 +15,10 @@ Year Walk combines simple mechanics, beautiful aesthetics, and a simple yet comp
 
 Originally developed for iOS, the game was so popular it was ported to Windows, OS X, and Wii U.
 
-{% include figure.html description="Year Walk" figure_url="http://cdn.akamai.steamstatic.com/steam/apps/269050/header.jpg?t=1394184712" %}
+{% include figure.html description="Year Walk title art" figure_url="http://cdn.akamai.steamstatic.com/steam/apps/269050/header.jpg?t=1394184712" %}
 
 
-### Mechanics
+## Mechanics
 The mechanics are combined to create a compelling 2D puzzle game that hints at a story line.
 
 - Walking left and right along 2D parallax scenes  
@@ -30,7 +30,7 @@ The mechanics are combined to create a compelling 2D puzzle game that hints at a
 - Hints - available for if/when the player get stuck on a puzzle  
 
 
-### Aesthetics
+## Aesthetics
 The visuals and sound combine to elicit certain emotions from the player, to the point where I personally felt chills at multiple points in the game.
 
 #### Visuals
@@ -45,7 +45,7 @@ The visuals and sound combine to elicit certain emotions from the player, to the
   - Discordant when the scene turns creepy
   - Suspenseful, powerful near the end
 
-### Narrative
+## Narrative
 **Spoiler Alert!**
 
 Year Walk follows a young man who is doing what's called a [Year Walk][year-walk-swedish-wikipedia]. Before the walk begins, you meet the man's lover, the young daughter of a miller, who has been proposed to by another man. Once the walk begins, you look around for a bit and eventually find a gate with a lock on it. So you need to figure out how to unlock the gate. You walk around for a bit, and eventually notice some music coming a certain part of the woods. You move toward it and find a spirit of the woods called the Huldra. It lures you into a marshy area, where you again need to find her by following her music. When you find her at the end of the marsh, she seems really peaceful, until she jumps at you and her face becomes demonic and covered with blood. After she jumps at you, you are back out side the tree, and a key is floating in front of you. Aha, the key to the gate! You found it! You try to click on it, but it melts and falls to the ground. Bummer.
@@ -76,16 +76,17 @@ You find the username and password, login to the journal, and start reading thro
 
 **End Spoilers**
 
-### Technology
+## Technology
 - Originally developed for iOS  
 - Later ported to Windows, OS X, and Wii U  
 - The original platform (iOS) explains why the controls are so simple  
 
-### Wrap up
+## Wrap up
 The puzzles could be a little annoying at times, but the beautiful aesthetics and compelling storyline more than make up for that. Overall, I thoroughly enjoyed Year Walk and completely understand why it was so well received.
 
 
 *Note: I originally wrote this for EECS 494, the game design course at the University of Michigan. This and hundreds of other reviews can be found at the course [wiki page][494-gamewiki].*
+
 
 [year-walk-title-image]: http://cdn.akamai.steamstatic.com/steam/apps/269050/header.jpg?t=1394184712
 [year-walk-swedish-wikipedia]: https://en.wikipedia.org/wiki/%C3%85rsg%C3%A5ng
