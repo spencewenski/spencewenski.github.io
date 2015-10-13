@@ -1,0 +1,52 @@
+---
+title: "Harry Potter Quidditch World Cup Game Analysis"
+date: 2015-10-13 16:00:00
+categories:
+- game_design
+tags:
+- games
+- game_design
+- game_analysis
+---
+
+Harry Potter Quidditch World Cup is a relatively simple game where you play quidditch. There are two tournament modes: Hogwarts house tournament and the World Cup tournament.
+
+<!--more-->
+
+{% include figure.html description="Harry Potter Quidditch World Cup cover art" figure_url="https://upload.wikimedia.org/wikipedia/en/4/4c/Harry_Potter_-_Quidditch_World_Cup_Coverart.png" %}
+
+
+## Mechanics
+
+The tournament mechanics are similar to games like Fifa or Madden, where you pick a team and try to make it to the championship game, so nothing really new there.
+
+The mechanics of playing quidditch are actually pretty cool. For most of each match, you play as a chaser, trying to score goals with the quaffle. When you pass the quaffle to another character, your control passes to that character. Chasers can also perform combos and rack up powerups that increase the seeker powerup bar. Once the powerup bar is full, the game switches to seeker mode, where the player races to catch the snitch.
+
+There's not really any strategy involved. The only real skill perfecting the timing on all the moves and combos. All the teams in the World Cup tournament are pretty equal in difficulty, and a skilled player can beat them all handedly.
+
+There's also a two-player/split-screen mode, where two players can play against each other. The games can be really one sided, however, if one player has significantly more experience with the game.
+
+
+## Aesthetics
+
+The visuals of the game are actually pretty impressive. Each of the Hogwarts house matches takes place during a different time of year, so the quidditch pitch is styled differently for each season. In the World Cup tournament, each county has a unique stadium: Japan's feature traditional architecture and France's design is inspired by the Gardens of Versailles, to name a couple.
+
+Game play aesthetics help provide the illusion of quick movements, with motion streaks, swooshing sounds, and fiery effects when the player is boosting.
+
+
+## Narrative
+The goal of the game is pick a team, improve your skills as a quidditch player, and hopefully win the Hogwarts and World tournaments. Aside from that, there isn't really a narrative, and the World Cup teams don't have any back story or rivalries to differentiate one from the other; choosing one as your team basically comes down to picking your favorite flag and/or team uniform.
+
+
+## Technology
+Harry Potter Quidditch World Cup was released in 2003 on all major platforms at the time, namely GameCube, PlayStation 2, Windows, Xbox, and Game Boy Advance. The game was developed by EA, and was probably a pretty quick and cheap one-off, which would explain the relatively simple mechanics and lack of any technical innovations.
+
+
+## Wrap up
+Harry Potter Quidditch World Cup isn't a particularly great game. However, to the demographic it targeted, 10-ish year old Harry Potter nerds like me, it was amazing.
+
+
+*Note: I originally wrote this for EECS 494, the game design course at the University of Michigan. This and hundreds of other reviews can be found at the course [wiki page][494-gamewiki].*
+
+
+[494-gamewiki]: https://web.eecs.umich.edu/~gameprof/gamewiki/index.php/Main_Page

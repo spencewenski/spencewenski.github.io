@@ -1,0 +1,56 @@
+---
+title: "Harry Potter and the Sorcerer's Stone Game Analysis"
+date: 2015-10-13 12:00:00
+categories:
+- game_design
+tags:
+- games
+- game_design
+- game_analysis
+---
+
+
+The game pretty closely follows the plot of the book, and many of the game mechanics stem from events from the book. Basically, you get to be Harry Potter - learn and perform spells, fly brooms, and eat Bertie Bott's Every Flavor Beans. What more could a 10 year old me ask for?
+
+<!--more-->
+
+{% include figure.html description="Harry Potter and the Sorcerer's Stone cover art" figure_url="http://img3.wikia.nocookie.net/__cb20101003085105/harrypotter/images/6/62/Harry-Potter-and-the-Sorcerer-039-s-Stone-Philosopher-039-s-Stone-Unlockables-and-Secrets-PS2-2.jpg" %}
+
+This is actually the first console game I ever owned and the first I played for more than a few minutes at friends' houses. Is it a technically great game? Probably not; I'm pretty sure I remember my mom buying it at Game Stop at a pretty steep discount. As a 10-ish year old Harry Potter fan, though, it was the greatest game I'd ever played.
+
+Note: this review focuses on the version of this game released for the PlayStation 2.
+
+## Mechanics
+
+As I mentioned above, most of the mechanics are almost directly from the book. These include learning spells, casting spells, exploring Hogwarts, and playing quidditch. The game uses a lot of more traditional game mechanics as well, especially those of platformers. The player must solve puzzles to find spell books, jump between platforms, slide along narrow ledges on the wall, and fight magical creatures. The player can trade Bertie Bott's beans for items at Fred and George Weasley's shop, explore Harry's dorm room, run around the castle and grounds, and sneak around in the restricted section of the library. One of the coolest parts of the game, however, is near the end when you get to solve the puzzles in the 3rd floor corridor and fight He Who Must Not Be Named.
+
+## Aesthetics
+Overall, the game's aesthetics lean heavily on the design work done to create the movie. This isn't necessarily a bad thing. In fact, I'd argue it's a good thing, because it makes the game world more identifiable as part of the Harry Potter universe (at least for people who have seen the movie).
+
+#### Visuals
+The character and world models are based heavily on the actors and sets of the movie. All the characters wear robes, the castle appears to be made of the same type of stone, and the quidditch stadium follows the same design. Overall, the game did a very good job of recreating the world of Harry Potter.
+
+#### Sound
+The sounds of the game do a lot to bring the world to life. The voice acting is very good, all spells make a noise when cast, and all the creatures in the game make different noises. In addition, the iconic Hedwig's Theme plays periodically, along with other, similar sounding music.
+
+## Narrative
+The storyline follows that of the book. I'll summarize here for anyone who hasn't read the book or seen the movie.
+
+**Spoiler Alert!**
+
+You play as the title and main character, Harry Potter, a wizard orphan who lived with his terrible Aunt and Uncle Dursley and his cousin Dudley. Harry is introduced to the wizarding world when he receives a letter from the Hogwarts School of Witchcraft and Wizardry. He becomes friends with Hagrid, the Keeper of the Keys and Grounds at Hogwarts, who tells him about how Voldemort killed Harry's parents and tried to kill Harry, as well. Harry eventually gets to Hogwarts, where he becomes fast friends with Ron Weasley and Hermione Granger, and mortal enemies with Draco Malfoy. Throughout the school year, Harry and his friends investigate the mystery of the third floor corridor on the right hand side, which is out of bounds. They figure out that it contains a bunch of traps and puzzles protecting something called the Sorcerer's Stone (or Philosopher's Stone, if you're from the UK), a magical item that can turn any metal into gold and grant the owner eternal life. They think that one of the professors, Snape, is plotting to steal it for himself. At the end of the story, Harry and his friends discover that Snape has entered the third floor corridor in order to steal the stone, so they go after him to try to stop him. When Harry gets to the last puzzle, however, he instead finds Professor Quirrell. And surprise! Quirrell also happens to be hosting Voldemort under his turban, albeit a rather ghostlike version of him. Harry gets the stone from the last puzzle, Quirrell tries to get it from him, but is killed when he tries to grab Harry, and Voldemort's ghost thing flies away into the sunset, still refusing to die. But hooray! Harry survived his second confrontation with Voldemort, further securing his title as The Boy Who Lived.
+
+**End Spoilers**
+
+
+## Technology
+The game was originally developed for Windows and the PlayStation. The graphics and character models of these games were pretty rudimentary. The game was later released on GameCube, PlayStation 2, and Xbox. The graphics of this release were significantly, bringing the game up to date with the standard graphics quality expected at the time.
+
+## Wrap up
+The game mechanics involve pretty generic level design and puzzle solving. However, the close resemblance to the book and movie, and mechanics inspired by the book, helped bring the world of Harry Potter to life.
+
+
+*Note: I originally wrote this for EECS 494, the game design course at the University of Michigan. This and hundreds of other reviews can be found at the course [wiki page][494-gamewiki].*
+
+
+[494-gamewiki]: https://web.eecs.umich.edu/~gameprof/gamewiki/index.php/Main_Page
