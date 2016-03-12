@@ -1,5 +1,5 @@
 .blogroll, .categories-list, .tags-list {
-  & > h4 {
+  & > h4, & > h3 {
     margin: 0 0 0 0;
   }
   & > ul {
@@ -39,4 +39,44 @@ ul.simple-list {
 // figure and caption
 figcaption {
   margin-top: 0.5em;
+}
+
+// Customize the Bootstrap well
+.well {
+  border-radius: 0px;
+  background-color: $blogroll-background-color;
+  box-shadow: none;
+  border: none;
+}
+
+// Customize the look of the Bootstrap pagination buttons
+.pager {
+  li {
+    a, a:hover {
+      background-color: $background-color;
+      color: $link-color;
+      border: none;
+      padding: 0px;
+      border-radius: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  .disabled {
+    & > a, a:hover, a:focus {
+      cursor: default;
+      text-decoration: none;
+    }
+  }
+}
+
+// site title
+.site-title {
+  a {
+    color: $brand-color;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
