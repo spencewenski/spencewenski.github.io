@@ -5,6 +5,7 @@ layout: default
 {% for category in site.data.categories %}
   {% if category.slug == page.category %}
     <h1>{{ category.name }}</h1>
+    <p><a href="{{ ".xml" | prepend: category.slug | prepend: "/feed.category." | prepend: site.baseurl | downcase }}">Subscribe to this category</a></p>
   {% endif %}
 {% endfor %}
 <ul class="simple-list">
