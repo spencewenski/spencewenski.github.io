@@ -14,6 +14,7 @@ layout: default
 
   <!-- audio player -->
   <audio src="{{ page.google_drive_id | prepend: site.podcast.google_drive_prefix}}" controls></audio>
+  <a href="{{ page.google_drive_id | prepend: site.podcast.google_drive_prefix}}" download>Download</a>
 
   <article class="post-content">
     {{ content }}

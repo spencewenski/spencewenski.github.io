@@ -4,6 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Run. Code. Sleep. Repeat.
 # baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://spencewenski.github.io" # the base hostname & protocol for your site
+logo: http://i.imgur.com/pBuVvaj.png
 
 author:
   name: Spencer Ferris
@@ -15,12 +16,11 @@ author:
 podcast:
   subtitle: Run. Code. Sleep. Repeat.
   description: Run. Code. Sleep. Repeat.
-  logo: http://test.com
   explicit: no
   keywords:
     - Spencer Ferris
     - spencewenski
-  category: category
+  category: Performing Arts
   google_drive_prefix: http://docs.google.com/uc?export=open&id=
 
 # timezone: America/New_York
