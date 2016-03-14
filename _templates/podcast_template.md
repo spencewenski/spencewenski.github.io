@@ -1,7 +1,8 @@
 ---
 layout: podcast
-title: test
-google_drive_id: 0B1rpKUWtgRJ1OFdLcFVjU2xHTXc
+title: title
+google_drive_id: id
+byte_length: length
 categories:
 - podcast
 ---

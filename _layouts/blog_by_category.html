@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if page.category == 'podcast' %}
-  <h1>{{ category.name }}</h1>
+  <h1>{{ page.category | capitalize }}</h1>
   <p><a href="{{ "/feed.podcast.xml" | prepend: site.baseurl | downcase }}">Subscribe to the podcast</a></p>
 {% else %}
   {% for category in site.data.categories %}
