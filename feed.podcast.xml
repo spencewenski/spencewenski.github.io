@@ -37,7 +37,7 @@ layout: null
       <itunes:author>{{ site.title | xml_escape }}</itunes:author>
       <itunes:explicit>{{ site.podcast.explicit }}</itunes:explicit>
       <itunes:image href="{{ site.podcast.logo | xml_escape }}"/>
-      <enclosure url="{{ podcast.google_drive_id | prepend: site.podcast.google_drive_prefix | xml_escape }}"/>
+      <enclosure url="{{ podcast.google_drive_id | prepend: site.podcast.google_drive_prefix | xml_escape }}" type="audio/mp4"/>
     </item>
     {% endfor %}
   </channel>
