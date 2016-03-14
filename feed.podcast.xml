@@ -30,15 +30,17 @@ layout: null
       <pubDate>{{ podcast.date | date_to_rfc822}}</pubDate>
       <link>{{ podcast.url | prepend: site.baseurl | prepend: site.url }}</link>
       <guid isPermaLink="true">{{ podcast.url | prepend: site.baseurl | prepend: site.url }}</guid>
-      <description><![CDATA[{{ podcast.content | xml_escape }}]]>
-      </description>
+      <description>{{ podcast.excerpt | xml_escape }}</description>
       <media:content type="image/png" url="{{ site.logo | xml_escape}}" medium="image" isDefault="true" width="1500" height="844">
         <media:title type="plain">{{ podcast.title | xml_escape }}</media:title>
       </media:content>
-      <itunes:author>{{ site.title | xml_escape }}</itunes:author>
+      <itunes:author>{{ site.author.name }}</itunes:author>
+      <itunes:subtitle>{{ podcast.excerpt | xml_escape }}</itunes:subtitle>
+      <itunes:summary>{{ podcast.excerpt | xml_escape }}</itunes:summary>
       <itunes:explicit>{% if site.podcast.explicit == true %}yes{% else %}no{% endif %}</itunes:explicit>
       <itunes:image href="{{ site.logo | xml_escape }}"/>
       <enclosure url="{{ podcast.google_drive_id | prepend: site.podcast.google_drive_prefix | xml_escape }}" length="{{ podcast.byte_length }}" type="audio/mp4"/>
+      <content:encoded><![CDATA[{{ podcast.content }}]]></content:encoded>
     </item>
     {% endfor %}
   </channel>
