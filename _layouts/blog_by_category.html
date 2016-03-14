@@ -2,12 +2,17 @@
 layout: default
 ---
 
-{% for category in site.data.categories %}
-  {% if category.slug == page.category %}
-    <h1>{{ category.name }}</h1>
-    <p><a href="{{ ".xml" | prepend: category.slug | prepend: "/feed.category." | prepend: site.baseurl | downcase }}">Subscribe to this category</a></p>
-  {% endif %}
-{% endfor %}
+{% if page.category == 'podcast' %}
+  <h1>{{ category.name }}</h1>
+  <p><a href="{{ "/feed.podcast.xml" | prepend: site.baseurl | downcase }}">Subscribe to the podcast</a></p>
+{% else %}
+  {% for category in site.data.categories %}
+    {% if category.slug == page.category %}
+      <h1>{{ category.name }}</h1>
+      <p><a href="{{ ".xml" | prepend: category.slug | prepend: "/feed.category." | prepend: site.baseurl | downcase }}">Subscribe to this category</a></p>
+    {% endif %}
+  {% endfor %}
+{% endif %}
 <ul class="simple-list">
   {% if site.categories[page.category] %}
     {% for post in site.categories[page.category] %}

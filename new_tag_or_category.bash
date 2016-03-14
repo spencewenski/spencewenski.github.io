@@ -9,6 +9,7 @@ python new_tag_or_category.py category programming Programming
 python new_tag_or_category.py category running Running
 python new_tag_or_category.py category travel Travel
 python new_tag_or_category.py category game_design 'Game Design'
+python new_tag_or_category.py category podcast Podcast
 python new_tag_or_category.py tag games Games
 python new_tag_or_category.py tag game_design 'Game Design'
 python new_tag_or_category.py tag winter_running 'Winter Running'

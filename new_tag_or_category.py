@@ -10,10 +10,10 @@ name = sys.argv[3] if len(sys.argv) > 3 else '';
 
 if tag_or_category == '':
   print __doc__
-  sys.exit(0);
+  sys.exit(0)
 if not (tag_or_category == 'tag' or tag_or_category == 'category'):
   print __doc__
-  sys.exit(0);
+  sys.exit(0)
 if slug == '' or name == '':
   print __doc__
   sys.exit(0)
@@ -51,6 +51,8 @@ if not string_to_write in data_categories_read.read():
   data_categories.write(slug + ',' + name + '\n')
 
 # create rss feed for the tag/category
+if slug == 'podcast':
+  sys.exit(0)
 rss_feed = open('feed.' + tag_or_category + '.' + slug + '.xml', 'w')
 rss_feed.write('---' + '\n')
 rss_feed.write('layout: null' + '\n')
