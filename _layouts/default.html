@@ -13,8 +13,9 @@
           {{ content }}
         </div>
         <div class="col-md-3 top-margin">
+          <img src="{{ site.logo }}" alt="{{ site.title }}"/>
           <!-- side bar -->
-          <div class="well">
+          <div class="top-margin well">
             {% include categories.html %}
             {% include tags.html %}
           </div>

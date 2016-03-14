@@ -78,5 +78,8 @@ figcaption {
     &:hover {
       text-decoration: none;
     }
+    &:focus {
+      text-decoration: none;
+    }
   }
 }
