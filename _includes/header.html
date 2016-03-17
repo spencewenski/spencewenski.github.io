@@ -17,7 +17,9 @@
     </a>
 
     <div class="trigger">
+      {% if site.categories.podcast %}
       <a class="page-link" href="{{ "/category/podcast/" | prepend: site.baseurl }}">Podcast</a>
+      {% endif %}
       {% for page in site.pages %}
         {% if page.title %}
         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
