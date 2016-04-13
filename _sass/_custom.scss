@@ -83,3 +83,11 @@ figcaption {
     }
   }
 }
+
+// syntax highlighting allow scroll
+.highlight pre {
+  overflow-x: auto;       // this sets the scrolling in x
+  code {
+    white-space: pre;       // forces <code> to respect <pre> formatting
+  }
+}
