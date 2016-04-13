@@ -20,7 +20,13 @@ for myself.
 
 The easiest and probably simplest solution to my problem is to create a stub app
 that just opens the Google app with the query 'add reminder'. So, that's exactly
-what I did. The full project can be found on GitHub [here][project-url], and
+what I did.
+
+In addition, I use this app with the [Nova Launcher][nova-launcher] which allows
+me to 1) launch the app with a gesture to reduce clutter on my home screen and
+2) hide the app from my app drawer to reduce clutter in my app drawer.
+
+The full project can be found on GitHub [here][project-url], and
 here's the code for the main activity:
 
 {% highlight java %}
@@ -58,3 +64,4 @@ public class MainActivity extends AppCompatActivity {
 
 
 [project-url]: https://github.com/spencewenski/AddReminderButton
+[nova-launcher]: http://novalauncher.com/
