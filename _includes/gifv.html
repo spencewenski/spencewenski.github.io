@@ -1,3 +1,14 @@
+<!--
+params:
+  link_url: Url to open when the reader clicks on the image.
+            example: https://imgur.com/8wBwlLH (to open the imgur page for the
+                     gifv), or any other valid url
+
+  figure_url: What is displayed on the page. Direct link to the gifv on imgur
+              without the file extension.
+              example: for the gifv at http://i.imgur.com/8wBwlLH.gifv,
+                       figure_url would be http://i.imgur.com/8wBwlLH
+  -->
 <figure class="">
     {% if include.link_url %}
     <a href="{{ include.link_url}}">
