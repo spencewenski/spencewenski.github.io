@@ -1,0 +1,11 @@
+<!--
+params:
+  video_id: Id of the youtube video to embed
+  description: Description of the figure
+  -->
+<figure class="">
+  <div class="youtube-embed">
+    <iframe src="https://www.youtube.com/embed/{{ include.video_id }}" frameborder="0" allowfullscreen></iframe>
+  </div>
+<figcaption class="text-muted text-center">{{ include.description }}</figcaption>
+</figure>

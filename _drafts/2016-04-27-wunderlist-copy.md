@@ -16,14 +16,11 @@ list items, which can be slow and tedious because Wunderlist to copy the text of
 an item to the clipboard, so I end up needing to open items and copy their text
 one at a time. In order to improve this process, I created a Chrome extension
 that allows you to copy selected list items to the clipboard. The extension is
-available on Github [here][project-url].
+available on Github [here][project-url]. Here's a quick demo:
 
 <!-- more -->
 
-Demo:
-
-{% include gifv.html description="Demo" figure_url="" link_url="" %}
-
+{% include youtube_embed.html description="Demo" video_id="bSvwTBp_h0A" %}
 
 [wunderlist]: https://www.wunderlist.com/
 [trello]: https://trello.com/
