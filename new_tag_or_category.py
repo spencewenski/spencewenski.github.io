@@ -62,6 +62,8 @@ rss_feed.write('<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">' + 
 rss_feed.write('  <channel>' + '\n')
 rss_feed.write('    <title>{{ site.title | xml_escape }} - ' + name + '</title>' + '\n')
 rss_feed.write('    <description>{{ site.description | xml_escape }}</description>' + '\n')
+rss_feed.write('    <managingEditor>{{ site.author.email }}</managingEditor>' + '\n')
+rss_feed.write('    <webMaster>{{ site.author.email }}</webMaster>' + '\n')
 rss_feed.write('    <link>{{ site.url }}{{ site.baseurl }}/' + tag_or_category + '/' + slug + '/</link>' + '\n')
 rss_feed.write('    <atom:link href="{{ "/feed.' + tag_or_category + '.' + slug +'.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>' + '\n')
 rss_feed.write('    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>' + '\n')

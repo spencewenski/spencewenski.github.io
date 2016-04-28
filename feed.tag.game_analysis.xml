@@ -6,6 +6,8 @@ layout: null
   <channel>
     <title>{{ site.title | xml_escape }} - Game Analysis</title>
     <description>{{ site.description | xml_escape }}</description>
+    <managingEditor>{{ site.author.email }}</managingEditor>
+    <webMaster>{{ site.author.email }}</webMaster>
     <link>{{ site.url }}{{ site.baseurl }}/tag/game_analysis/</link>
     <atom:link href="{{ "/feed.tag.game_analysis.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
