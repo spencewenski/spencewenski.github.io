@@ -22,7 +22,7 @@ available on Github [here][project-url].
 
 Here's a quick demo:
 
-{% include youtube_embed.html description="Demo" video_id="bSvwTBp_h0A" %}
+{% include youtube_embed.html description="Demo" video_id="AiRoNX73QYI" %}
 
 [wunderlist]: https://www.wunderlist.com/
 [trello]: https://trello.com/
