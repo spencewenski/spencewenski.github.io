@@ -20,3 +20,4 @@ python new_tag_or_category.py tag programming Programming
 python new_tag_or_category.py tag training Training
 python new_tag_or_category.py tag game_analysis 'Game Analysis'
 python new_tag_or_category.py tag writing_201 'Writing 201'
+python new_tag_or_category.py tag unity 'Unity'
