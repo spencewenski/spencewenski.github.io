@@ -12,6 +12,7 @@
       </div>
 
       <div class="col-md-4">
+      	Find me on
         <ul class="social-media-list">
           {% if site.author.github %}
           <li>
@@ -21,7 +22,7 @@
  						</span>
             <!-- link -->
             <a href="https://github.com/{{ site.author.github }}">
-              <span class="username">{{ site.author.github }}</span>
+              <span class="username">GitHub</span>
             </a>
           </li>
           {% endif %}
@@ -34,7 +35,7 @@
             </span>
             <!-- link -->
             <a href="https://gitlab.com/u/{{ site.author.gitlab }}">
-              <span class="username">{{ site.author.gitlab }}</span>
+              <span class="username">GitLab</span>
             </a>
           </li>
           {% endif %}
@@ -47,9 +48,22 @@
             </span>
             <!-- link -->
             <a href="https://twitter.com/{{ site.author.twitter }}">
-              <span class="username">{{ site.author.twitter }}</span>
+              <span class="username">Twitter</span>
             </a>
           </li>
+          {% endif %}
+
+          {% if site.author.keybase %}
+          <li>
+            <!-- icon -->
+            <span class="icon">
+              <img src="https://keybase.pub/images/icons/logo-no-text.png">
+            </span>
+            <!-- link -->
+            <a href="https://keybase.pub/{{ site.author.keybase }}">
+              <span class="username">Keybase</span>
+            </a>
+           </li>
           {% endif %}
 
           {% if site.author.email %}
@@ -62,19 +76,6 @@
             <script language="javascript">
               AYQvZItKrBgJUXa();
             </script>
-           </li>
-          {% endif %}
-          
-          {% if site.author.keybase %}
-          <li>
-            <!-- icon -->
-            <span class="icon">
-              <img src="https://keybase.pub/images/icons/logo-no-text.png">
-            </span>
-            <!-- link -->
-            <a href="https://keybase.pub/{{ site.author.keybase }}">
-              <span class="username">{{ site.author.keybase }}</span>
-            </a>
            </li>
           {% endif %}
         </ul>

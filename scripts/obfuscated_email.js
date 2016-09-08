@@ -6,7 +6,6 @@ function AYQvZItKrBgJUXa(element) {
   document.write("<a href=\"&#x6d;&#97;&#x69;&#000108;&#x74;&#x6f;&#x3a;");
   for (i=0; i<odKWXInjBGXgrRV.length; i++) document.write('&#'+odKWXInjBGXgrRV[i]+';');
   for (i=0; i<PXzBWaYxTiHmHwR.length; i++) document.write(PXzBWaYxTiHmHwR[i]);
-  document.write('" >');
-  for (i=0; i<flyNyhOkvDsBGAA.length; i++) document.write('&#'+flyNyhOkvDsBGAA[i]+';');
+  document.write('" >Email');
   document.write('</a>');
 }
