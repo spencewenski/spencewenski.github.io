@@ -4,16 +4,16 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }} - Training</title>
+    <title>{{ site.title | xml_escape }} - Running</title>
     <description>{{ site.description | xml_escape }}</description>
     <managingEditor>{{ site.author.email }}</managingEditor>
     <webMaster>{{ site.author.email }}</webMaster>
-    <link>{{ site.url }}{{ site.baseurl }}/tag/training/</link>
-    <atom:link href="{{ "/feed.tag.training.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <link>{{ site.url }}{{ site.baseurl }}/category/running/</link>
+    <atom:link href="{{ "category/running/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.tags.training limit:10 %}
+    {% for post in site.categories.running limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>

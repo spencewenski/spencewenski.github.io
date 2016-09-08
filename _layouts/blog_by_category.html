@@ -4,12 +4,12 @@ layout: default
 
 {% if page.category == 'podcast' %}
   <h1>{{ page.category | capitalize }}</h1>
-  <p><a href="{{ "/feed.podcast.xml" | prepend: site.baseurl | downcase }}">Subscribe to the podcast</a></p>
+  <p><a href="{{ "/podcast/feed.xml" | prepend: site.baseurl | downcase }}">Subscribe to the podcast</a></p>
 {% else %}
   {% for category in site.data.categories %}
     {% if category.slug == page.category %}
       <h1>{{ category.name }}</h1>
-      <p><a href="{{ ".xml" | prepend: category.slug | prepend: "/feed.category." | prepend: site.baseurl | downcase }}">Subscribe to this category</a></p>
+      <p><a href="{{ "/feed.xml" | prepend: category.slug | prepend: "/category/" | prepend: site.baseurl | downcase }}">Subscribe to this category</a></p>
     {% endif %}
   {% endfor %}
 {% endif %}

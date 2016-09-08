@@ -5,7 +5,7 @@ layout: default
 {% for tag in site.data.tags %}
   {% if tag.slug == page.tag %}
     <h1>{{ tag.name }}</h1>
-    <p><a href="{{ ".xml" | prepend: tag.slug | prepend: "/feed.tag." | prepend: site.baseurl | downcase }}">Subscribe to this tag</a></p>
+    <p><a href="{{ "/feed.xml" | prepend: tag.slug | prepend: "/tag/" | prepend: site.baseurl | downcase }}">Subscribe to this tag</a></p>
   {% endif %}
 {% endfor %}
 <ul class="simple-list">

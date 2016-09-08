@@ -53,7 +53,12 @@ if not string_to_write in data_categories_read.read():
 # create rss feed for the tag/category
 if slug == 'podcast':
   sys.exit(0)
-rss_feed = open('feed.' + tag_or_category + '.' + slug + '.xml', 'w')
+try:
+  os.makedirs(tag_or_category + '/' + slug)
+except OSError:
+  if not os.path.isdir(tag_or_category + '/' + slug):
+    raise
+rss_feed = open(tag_or_category + '/' + slug + '/feed.xml', 'w')
 rss_feed.write('---' + '\n')
 rss_feed.write('layout: null' + '\n')
 rss_feed.write('---' + '\n')
@@ -65,7 +70,7 @@ rss_feed.write('    <description>{{ site.description | xml_escape }}</descriptio
 rss_feed.write('    <managingEditor>{{ site.author.email }}</managingEditor>' + '\n')
 rss_feed.write('    <webMaster>{{ site.author.email }}</webMaster>' + '\n')
 rss_feed.write('    <link>{{ site.url }}{{ site.baseurl }}/' + tag_or_category + '/' + slug + '/</link>' + '\n')
-rss_feed.write('    <atom:link href="{{ "/feed.' + tag_or_category + '.' + slug +'.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>' + '\n')
+rss_feed.write('    <atom:link href="{{ "' + tag_or_category + '/' + slug +'/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>' + '\n')
 rss_feed.write('    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>' + '\n')
 rss_feed.write('    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>' + '\n')
 rss_feed.write('    <generator>Jekyll v{{ jekyll.version }}</generator>' + '\n')
