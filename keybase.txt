@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/spencewenski
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://spencewenski.com
+  * I am spencewenski (https://keybase.io/spencewenski) on keybase.
+  * I have a public key with fingerprint 7FD5 004A 2794 EF36 1F79  1719 4AF7 894E 2B18 006C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a46a56057a1a21c07728652d95e09bcb2039f3a66bd6ae1fa3afc728f903b7980a",
+            "fingerprint": "7fd5004a2794ef361f7917194af7894e2b18006c",
+            "host": "keybase.io",
+            "key_id": "4af7894e2b18006c",
+            "kid": "0101a46a56057a1a21c07728652d95e09bcb2039f3a66bd6ae1fa3afc728f903b7980a",
+            "uid": "59735c08cfae4aac514811fb7f873219",
+            "username": "spencewenski"
+        },
+        "service": {
+            "hostname": "spencewenski.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1473316125,
+    "expire_in": 157680000,
+    "prev": "b417249cd9039a7fbe8856bdfe779f248514896e6b681b8f392e53e3d7dcac25",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIjAnicrVJdSBRRGN21jNKMCjVtNWhoUVNk7vzdmcXCpEh7MUgT0djuzNxZB3Vm
+3J1dNbFe7I9ejAotS5IoDBEhzUIlTAILy/6jfyoUhH5AKZEK7I7Um489Xe79zjn3
+nMN3J26JK8b9kC842bstM+Aeu90edpU8jk5toGRTrad8DVQlXjhwlYpDtr9SVykf
+RQMaIE5AvEDzEAHEAIWGkBEFnlElHtOSrMgMzUoaiwRBVgWEgYZYpCkEo0k0K0NJ
+pBGVRWm6EcBBK6gbNpGFmsrTNIcYKHFYYwWgQQlAIHFIgyJ5YmQg0rSgEGKFGXIY
+xJyMQjhbN8kbufgX7C2C/8++wwtyvARZXqFFRUOYQ0jhAScCoMlQEyHLAMkBhnDQ
+QNWYoEMWNhRci41QpU41ZlFkEtEV7JTrpFkEla2Y1UTDCpq2qZhVZFph25bPIdv1
+loOuxbL/r45f1g2V1EkIERwM6aZB+QBBKrbuCAMOsiwQAMNnUbjO0oPYrzsIHgqk
+I5p2vsERIilzADKcpKgkr4SgJmNR5EkZGoZQ0hhOdFJKAhZkQQSyqLESg3kWsypU
+FaQwPOUkqzFMyicSmyjgZNIDBrLDQUw1jgyXL3W5Y1zLoqOcNXPFrFj9b/n0ieWu
+09np2eMbPr3PLU/f5B0byOkf3Gl9bdn7+uexzuZW+Ufc1MC3Oj5l4wXmbckrDvd5
+Mi82Nf+eS/++rm3+RO+zTjXZKn734drhUvfRsaweb1mRmZfyq3/eXXSOTqxlkrd2
+F1YHRmK79uwqjRnqmPidfH78wLAnHNzvuXUj9U1SwilXz6EnOy7dDfR1d6dNf8xv
+SE1RL7c9bw3P5R5p49cWJnQMbg4kW6PUYEJPUvuW4/lnOow1JbsnV67qujp0xZNx
+fyptX9PwZGJ1+MVMpIeKKrBzHszeu1nztGD7ozYxku5+2VIsTM/Mfh4NjF73HizL
+aIkddXV57C+pXF7h2fj13vg/kpU7aw==
+=CDzW
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/spencewenski
+
+==================================================================
