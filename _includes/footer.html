@@ -56,6 +56,19 @@
             </script>
            </li>
           {% endif %}
+          
+          {% if site.author.keybase %}
+          <li>
+            <!-- icon -->
+            <span class="icon">
+              <img src="https://keybase.pub/images/icons/logo-no-text.png" width="16" height="16">
+            </span>
+            <!-- link -->
+            <a href="https://keybase.pub/{{ site.author.keybase }}">
+              <span class="username">{{ site.author.keybase }}</span>
+            </a>
+           </li>
+          {% endif %}
         </ul>
       </div>
 
