@@ -51,3 +51,6 @@ defaults:
 
 # Build settings
 markdown: kramdown
+
+# gems
+gems: [jekyll-paginate]
