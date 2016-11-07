@@ -1,8 +1,6 @@
 ---
-title:  "title"
+title: "title"
 date: yyyy-mm-dd
-categories:
-- category
 tags:
 - tag
 ---
