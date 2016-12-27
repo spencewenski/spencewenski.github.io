@@ -2,17 +2,17 @@ image: ruby:2.1
 
 # add bundle cache to 'vendor' for speeding up builds
 cache:
-	paths: 
-		- vendor/
+  paths: 
+    - vendor/
 
 before_script:
-	- bundle install --path vendor
+  - bundle install --path vendor
 
 pages:
-	script:
-	- bundle exec jekyll build -d public/
-	artifacts:
-		paths:
-		- public
-	only:
-	- master
+  script:
+  - bundle exec jekyll build -d public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
