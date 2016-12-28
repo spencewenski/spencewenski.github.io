@@ -12,5 +12,10 @@ params:
     {% if include.link_url %}
     </a>
     {% endif %}
-<figcaption class="text-muted text-center">{{ include.description }}</figcaption>
+<figcaption class="text-muted text-center">{{ include.description }}
+{% if include.source %}
+<br>
+<a href="{{ include.source }}">(source)</a>
+{% endif %}
+</figcaption>
 </figure>
