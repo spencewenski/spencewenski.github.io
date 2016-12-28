@@ -33,7 +33,7 @@ excerpt_separator: <!--more-->
 
 paginate: 10
 
-permalink: /blog/:title
+permalink: /blog/:title/
 
 defaults:
   # posts
