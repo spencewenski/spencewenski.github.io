@@ -3,19 +3,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- redirect to https -->
-  {% if jekyll.environment == 'production' %}
-    <meta http-equiv="refresh" content="0; {{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  {% endif %}
-
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <link href="{{ "/img/favicon.png" | prepend: site.baseurl }}" rel="shortcut icon" type="image/png">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <!-- bootstrap -->
   {% if jekyll.environment == 'production' %}
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   {% else %}
+    <!-- bootstrap -->
     <link rel="stylesheet" href="{{ '/css/bootstrap.css' | prepend: site.baseurl }}">
   {% endif %}
 
