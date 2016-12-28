@@ -1,3 +1,5 @@
+#/usr/bin/env python3
+
 """
 Usage: new_category <tag|category> <slug> <name>
 """
@@ -9,13 +11,13 @@ slug = sys.argv[2] if len(sys.argv) > 2 else '';
 name = sys.argv[3] if len(sys.argv) > 3 else '';
 
 if tag_or_category == '':
-  print __doc__
+  print(__doc__)
   sys.exit(0)
 if not (tag_or_category == 'tag' or tag_or_category == 'category'):
-  print __doc__
+  print(__doc__)
   sys.exit(0)
 if slug == '' or name == '':
-  print __doc__
+  print(__doc__)
   sys.exit(0)
 
 # create tag/category dir, then create tag/category page
