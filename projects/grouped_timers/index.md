@@ -13,7 +13,7 @@ previous one finishes.
 - [App store](https://apps.getpebble.com/en_US/application/58f985730dfc329fda001649)
 - [Code](https://gitlab.com/spencewenski/pebble_grouped_timers)
 - [Code documentation](https://spencewenski.gitlab.io/pebble_grouped_timers)
-- [Blog post]({% post_url 2017-05-15-17 %})
+- [Blog post]({% post_url 2017-05-16-17 %})
 
 ## Sample use cases
 - At work I have a sit-stand desk. I have a group with two timers, 15 and 45
