@@ -14,28 +14,29 @@
       <div class="col-md-4">
       	Find me on
         <ul class="social-media-list">
-          {% if site.author.github %}
-          <li>
-            <!-- icon -->
-            <span class="icon icon--github">
- 							<img src="/img/github-logo.png">
- 						</span>
-            <!-- link -->
-            <a href="https://github.com/{{ site.author.github }}">
-              <span class="username">GitHub</span>
-            </a>
-          </li>
-          {% endif %}
 
           {% if site.author.gitlab %}
           <li>
             <!-- icon -->
             <span class="icon">
-							<img src="/img/gitlab-logo.png" />
+              <img src="/img/gitlab-logo.png" />
             </span>
             <!-- link -->
-            <a href="https://gitlab.com/u/{{ site.author.gitlab }}">
+            <a href="https://gitlab.com/{{ site.author.gitlab }}">
               <span class="username">GitLab</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.author.github %}
+          <li>
+            <!-- icon -->
+            <span class="icon icon--github">
+              <img src="/img/github-logo.png">
+            </span>
+            <!-- link -->
+            <a href="https://github.com/{{ site.author.github }}">
+              <span class="username">GitHub</span>
             </a>
           </li>
           {% endif %}

@@ -3,7 +3,7 @@
 # Script to run new_tag_or_category.py for all of the tags/categories. Use
 # this to update the files for all the tags/categories created by
 # new_tag_or_category.py
-# 
+#
 python new_tag_or_category.py tag games 'Games'
 python new_tag_or_category.py tag game_design 'Game Design'
 python new_tag_or_category.py tag winter_running 'Winter Running'
@@ -16,3 +16,4 @@ python new_tag_or_category.py tag game_analysis 'Game Analysis'
 python new_tag_or_category.py tag writing_201 'Writing 201'
 python new_tag_or_category.py tag unity 'Unity'
 python new_tag_or_category.py tag meta 'Meta'
+python new_tag_or_category.py tag pebble 'Pebble'

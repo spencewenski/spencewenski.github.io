@@ -2,16 +2,48 @@
 params:
   link_url: Url to open when the reader clicks on the image.
   figure_url: What is displayed on the page; direct link to an image.
+  link_url2: Url to open when the reader clicks on the image.
+  figure_url2: What is displayed on the page; direct link to an image.
+  link_url3: Url to open when the reader clicks on the image.
+  figure_url3: What is displayed on the page; direct link to an image.
   description: Description of the figure
   -->
+<!-- TODO: Use an array instead of multiple figure_url parameters -->
 <figure class="">
-    {% if include.link_url %}
-    <a href="{{ include.link_url}}">
+  <div style="text-align: center;">
+    {% if include.figure_url %}
+      <!-- 1 -->
+      {% if include.link_url %}
+      <a href="{{ include.link_url}}">
+      {% endif %}
+        <img style="width:{{ include.width }};" src="{{ include.figure_url }}" />
+      {% if include.link_url %}
+      </a>
+      {% endif %}
     {% endif %}
-      <img class="img-responsive center-block" style="width:{{ include.width }};" src="{{ include.figure_url }}" />
-    {% if include.link_url %}
-    </a>
+
+    {% if include.figure_url2 %}
+      <!-- 2 -->
+      {% if include.link_url2 %}
+      <a href="{{ include.link_url2}}">
+      {% endif %}
+        <img style="width:{{ include.width }};" src="{{ include.figure_url2 }}" />
+      {% if include.link_url2 %}
+      </a>
+      {% endif %}
     {% endif %}
+
+    {% if include.figure_url3 %}
+      <!-- 3 -->
+      {% if include.link_url3 %}
+      <a href="{{ include.link_url3}}">
+      {% endif %}
+        <img style="width:{{ include.width }};" src="{{ include.figure_url3 }}" />
+      {% if include.link_url3 %}
+      </a>
+      {% endif %}
+    {% endif %}
+  </div>
 <figcaption class="text-muted text-center">{{ include.description }}
 {% if include.source %}
 <br>
