@@ -17,5 +17,5 @@ git commit -m "Renewing letsencrypt certificate"
 git push
 
 # Sleep to allow the change to get built by gitlab
-SLEEP_TIME=120
-sleep 120
+SLEEP_TIME=180
+sleep $SLEEP_TIME
