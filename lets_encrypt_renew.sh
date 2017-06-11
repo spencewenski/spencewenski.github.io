@@ -37,3 +37,11 @@ fi
 
 # Use '--debug' flag to override experimental warning on mac
 $LETS_ENCRYPT_SCRIPT_DIR/letsencrypt-auto renew --debug --manual-auth-hook $CUR_DIR_NAME/authenticator.sh --manual-public-ip-logging-ok
+
+echo "
+Now, go to the 'Pages' tab of the gitlab project and paste
+/etc/letsencrypt/live/YOURDOMAIN.org/fullchain.pem to the Certificate (PEM) field
+and /etc/letsencrypt/live/YOURDOMAIN.org/privkey.pem to the Key (PEM) field.
+
+See https://about.gitlab.com/2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/
+for more details."
