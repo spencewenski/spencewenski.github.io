@@ -1,3 +1,7 @@
+# Jekyll files
 _site
 .sass-cache
 *.lock
+
+# Sublime workspace
+*.sublime-workspace

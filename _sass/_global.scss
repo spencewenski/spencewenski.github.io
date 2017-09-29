@@ -1,0 +1,85 @@
+// Reset basic elements
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, figure {
+    margin: 0;
+    padding: 0;
+}
+
+// Setup basic styles
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: $font-weight;
+  line-height: $base-line-height;
+}
+
+// Links
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $link-visited-color;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $font-weight;
+}
+
+// Lists
+.list-no-style {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Paragraph
+p {
+  margin-bottom: $base-margin-small;
+}
+
+.margin-below {
+  margin-bottom: $base-margin-large;
+}
+
+// Site container
+.container {
+  margin-left: $base-margin-large;
+  margin-right: $base-margin-large;
+}
+
+.content-container {
+  // Only leave room for the sidebar on desktops. For other sizes, use the
+  // whole width.
+  @include desktop {
+    width: calc(100% - #{$side-bar-width + $side-bar-margin});
+    float: left;
+    overflow: hidden;
+  }
+}
+
+// Floats
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear-float {
+  clear: both;
+}
+
+
+// Blockquotes
+blockquote {
+  color: $grey-color;
+  border-left: 4px solid $grey-color-light;
+  padding-left: $base-margin-large / 2;
+}

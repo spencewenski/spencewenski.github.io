@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="home">
+<div>
 
-  <ul class="post-list">
+  <ul class="list-no-style">
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
       {% include post_list_item.html %}
@@ -12,21 +12,24 @@ layout: default
   </ul>
 
   <!-- pagination -->
-  <nav>
-    <ul class="pager">
-      <!-- previous -->
-      {% if paginator.previous_page %}
-        <li class="previous"><a href="{{ paginator.previous_page_path }}"><span aria-hidden="true">&larr;</span> Newer</a></li>
-      {% else %}
-        <li class="previous disabled"><a><span aria-hidden="true">&larr;</span> Newer</a></li>
-      {% endif %}
-
-      <!-- next -->
-      {% if paginator.next_page %}
-        <li class="next"><a href="{{ paginator.next_page_path }}">Older <span aria-hidden="true">&rarr;</span></a></li>
-      {% else %}
-        <li class="next disabled"><a>Older <span aria-hidden="true">&rarr;</span></a></li>
-      {% endif %}
-    </ul>
-  </nav>
+  <div class="left">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">
+    {% endif %}
+        <span aria-hidden="true">&larr;</span> Newer
+    {% if paginator.previous_page %}
+      </a>
+    {% endif %}
+  </div>
+  <!-- next -->
+  <div class="right">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">
+    {% endif %}
+        Older <span aria-hidden="true">&rarr;</span>
+    {% if paginator.next_page %}
+      </a>
+    {% endif %}
+  </div>
+  <div class="clear-float margin-below"></div>
 </div>

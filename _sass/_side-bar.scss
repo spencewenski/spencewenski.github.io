@@ -1,0 +1,22 @@
+.side-bar {
+  @include desktop {
+    // Only float the sidebar on desktops.
+    width: $side-bar-width;
+    img {
+      width: $side-bar-width;
+    }
+    margin-left: $side-bar-margin;
+    float: left;
+  }
+  @include tablet_or_smaller {
+    margin: auto;
+    text-align: center;
+  }
+  @include tablet_or_smaller {
+    width: 100%;
+    img {
+      width: 100%;
+      max-width: #{$tablet-width - (2 * $base-margin-large)};
+    }
+  }
+}

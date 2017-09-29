@@ -9,14 +9,14 @@ params:
   description: Description of the figure
   -->
 <!-- TODO: Use an array instead of multiple figure_url parameters -->
-<figure class="">
-  <div style="text-align: center;">
+<figure>
+  <div>
     {% if include.figure_url %}
       <!-- 1 -->
       {% if include.link_url %}
       <a href="{{ include.link_url}}">
       {% endif %}
-        <img style="width:{{ include.width }};" src="{{ include.figure_url }}" />
+        <img style="max-width: 100%;" src="{{ include.figure_url }}" />
       {% if include.link_url %}
       </a>
       {% endif %}
@@ -27,7 +27,7 @@ params:
       {% if include.link_url2 %}
       <a href="{{ include.link_url2}}">
       {% endif %}
-        <img style="width:{{ include.width }};" src="{{ include.figure_url2 }}" />
+        <img style="max-width: 100%;" src="{{ include.figure_url2 }}" />
       {% if include.link_url2 %}
       </a>
       {% endif %}
@@ -38,13 +38,13 @@ params:
       {% if include.link_url3 %}
       <a href="{{ include.link_url3}}">
       {% endif %}
-        <img style="width:{{ include.width }};" src="{{ include.figure_url3 }}" />
+        <img style="max-width: 100%;" src="{{ include.figure_url3 }}" />
       {% if include.link_url3 %}
       </a>
       {% endif %}
     {% endif %}
   </div>
-<figcaption class="text-muted text-center">{{ include.description }}
+<figcaption>{{ include.description }}
 {% if include.source %}
 <br>
 <a href="{{ include.source }}">(source)</a>

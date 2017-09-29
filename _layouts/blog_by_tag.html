@@ -8,7 +8,7 @@ layout: default
     <p><a href="{{ "/feed.xml" | prepend: tag.slug | prepend: "/tag/" | prepend: site.baseurl | downcase }}">Subscribe to this tag</a></p>
   {% endif %}
 {% endfor %}
-<ul class="simple-list">
+<ul class="list-no-style">
   {% if site.tags[page.tag] %}
     {% for post in site.tags[page.tag] %}
       {% include post_list_item.html %}

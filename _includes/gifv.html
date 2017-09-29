@@ -11,16 +11,16 @@ params:
 
   description: Description of the figure
   -->
-<figure class="">
+<figure>
     {% if include.link_url %}
     <a href="{{ include.link_url}}">
     {% endif %}
-    <video style="width:{{ include.width }}" poster="{{ include.figure_url }}.gif" class="img-responsive center-block" autoplay="autoplay" loop="loop">
+    <video poster="{{ include.figure_url }}.gif" autoplay="autoplay" loop="loop">
       <source src="{{ include.figure_url }}.webm" type="video/webm">
       <source src="{{ include.figure_url }}.mp4" type="video/mp4">
     </video>
     {% if include.link_url %}
     </a>
     {% endif %}
-<figcaption class="text-muted text-center">{{ include.description }}</figcaption>
+<figcaption>{{ include.description }}</figcaption>
 </figure>

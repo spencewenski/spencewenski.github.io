@@ -3,52 +3,59 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
+// Site style variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $site-title-font-family: "Courier New", Courier, monospace;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
+$base-font-size: 16px;
+$brand-color: #428FA8;
+$link-visited-color: #704d89;
 $base-line-height: 1.5;
+$base-margin-large: 25px;
+$base-margin-small: 15px;
 
-$spacing-unit:     30px;
-
-$text-color:       #121212;
-$background-color: #ffffff;
-$blogroll-background-color: darken($background-color, 5%);
-$link-color:       #428FA8;
-$brand-color:      #121212;
-
-$grey-color:       #828282;
+$grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$font-weight: 300;
 
-// Width of the content area
-$content-width:    800px;
+$side-bar-width: 250px;
+$side-bar-margin: $base-margin-large;
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+// Switch layouts for mobile vs desktop
+$tablet-width: 500px;
+$desktop-width: 1024px;
+@mixin mobile {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+@mixin tablet_or_larger {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+@mixin tablet_or_smaller {
+  @media (max-width: #{$desktop-width - 1}) {
+    @content;
+  }
 }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// Import partials from the '_sass' directory
 @import
-        "base",
-        "layout",
-        "syntax-highlighting",
-        "custom"
+  "syntax-highlighting",
+  "global",
+  "header",
+  "post",
+  "side-bar",
+  "footer",
+  "figure"
 ;
