@@ -1,9 +1,7 @@
 {% if jekyll.environment == 'production' %}
-	<!-- bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Externally hosted scripts -->
 {% else %}
-	<!-- bootstrap -->
-  <link rel="stylesheet" href="{{ '/css/bootstrap.css' | prepend: site.baseurl }}">
+	<!-- Local scripts -->
 {% endif %}
 <!-- obfuscated email -->
 <script src="{{ '/scripts/obfuscated_email.js' | prepend: site.baseurl }}"></script>

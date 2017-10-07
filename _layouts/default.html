@@ -5,25 +5,31 @@
 
   <body>
 
-    {% include header.html %}
-
     <div class="container">
-      <div class="row">
-        <div class="col-md-9 top-margin">
+
+      {% include header.html %}
+
+      <div>
+        <!-- <div style="float: left; width: 700px;"> -->
+        <div class="content-container">
           {{ content }}
         </div>
-        <div class="col-md-3 top-margin">
+        <div class="side-bar">
           <!-- side bar -->
-          <img src="{{ site.logo }}" alt="{{ site.title }}"/>
-          <div class="top-margin well">
+          <img width="100px" src="{{ site.logo }}" alt="{{ site.title }}"/>
+          <div>
             {% include tags.html %}
           </div>
+          <div class="margin-below"></div>
         </div>
       </div>
-    </div>
 
+      <div class="clear-float"></div>
 
-    {% include footer.html %}
+      {% include footer.html %}
+
+    </div> <!-- container -->
+
     {% include body_scripts.html %}
 
   </body>

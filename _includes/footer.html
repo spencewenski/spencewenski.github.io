@@ -1,93 +1,49 @@
-<footer class="site-footer">
+<div class="content-container">
 
-  <div class="container">
-
-
-    <div class="row">
-      <div class="col-md-4">
-        <p><a href="{{ "/feed.xml" | prepend: site.baseurl }}">Subscribe via RSS</a></p>
-        {% if site.categories.podcast %}
-          <p><a href="{{ "/feed.podcast.xml" | prepend: site.baseurl }}">Subscribe to the podcast</a></p>
-        {% endif %}
-      </div>
-
-      <div class="col-md-4">
-      	Find me on
-        <ul class="social-media-list">
-
-          {% if site.author.gitlab %}
-          <li>
-            <!-- icon -->
-            <span class="icon">
-              <img src="/img/gitlab-logo.png" />
-            </span>
-            <!-- link -->
-            <a href="https://gitlab.com/{{ site.author.gitlab }}">
-              <span class="username">GitLab</span>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.author.github %}
-          <li>
-            <!-- icon -->
-            <span class="icon icon--github">
-              <img src="/img/github-logo.png">
-            </span>
-            <!-- link -->
-            <a href="https://github.com/{{ site.author.github }}">
-              <span class="username">GitHub</span>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.author.twitter %}
-          <li>
-            <!-- icon -->
-            <span class="icon">
-	            <img src="/img/twitter-logo-blue.png">
-            </span>
-            <!-- link -->
-            <a href="https://twitter.com/{{ site.author.twitter }}">
-              <span class="username">Twitter</span>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.author.keybase %}
-          <li>
-            <!-- icon -->
-            <span class="icon">
-              <img src="/img/keybase-logo.png">
-            </span>
-            <!-- link -->
-            <a href="https://keybase.pub/{{ site.author.keybase }}">
-              <span class="username">Keybase</span>
-            </a>
-           </li>
-          {% endif %}
-
-          {% if site.author.email %}
-          <li>
-            <!-- icon -->
-            <span class="icon">
-              <span class="glyphicon glyphicon-envelope"></span>
-            </span>
-            <!-- obfuscated email (http://www.addressmunger.com/) -->
-            <script language="javascript">
-              AYQvZItKrBgJUXa();
-            </script>
-           </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="col-md-4">
-        <p class="text">{{ site.description }}</p>
-      </div>
-
-    </div>
-
+  <div class="tagline">
+    <p>{{ site.description }}</p>
   </div>
 
-</footer>
+  <!-- Links -->
+  <div class="social-links">
+    Find me on
+    <ul class="list-no-style">
+
+      {% if site.author.gitlab %}
+      <li>
+        <a href="https://gitlab.com/{{ site.author.gitlab }}">GitLab</a>
+      </li>
+      {% endif %}
+
+      {% if site.author.github %}
+      <li>
+        <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      </li>
+      {% endif %}
+
+      {% if site.author.twitter %}
+      <li>
+        <a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a>
+      </li>
+      {% endif %}
+
+      {% if site.author.keybase %}
+      <li>
+        <a href="https://keybase.pub/{{ site.author.keybase }}">Keybase</a>
+       </li>
+      {% endif %}
+
+      {% if site.author.email %}
+      <li>
+        <!-- obfuscated email (http://www.addressmunger.com/) -->
+        <script language="javascript">
+          AYQvZItKrBgJUXa();
+        </script>
+       </li>
+      {% endif %}
+    </ul>
+  </div>
+
+  <div class="margin-below"></div>
+
+</div>

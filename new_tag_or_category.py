@@ -53,8 +53,6 @@ if not string_to_write in data_categories_read.read():
   data_categories.write(slug + ',' + name + '\n')
 
 # create rss feed for the tag/category
-if slug == 'podcast':
-  sys.exit(0)
 try:
   os.makedirs(tag_or_category + '/' + slug)
 except OSError:

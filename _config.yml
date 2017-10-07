@@ -17,35 +17,23 @@ author:
   gitlab: spencewenski
   keybase: spencewenski
 
-podcast:
-  subtitle: Run. Code. Sleep. Repeat.
-  description: Run. Code. Sleep. Repeat.
-  explicit: no
-  keywords:
-    - Spencer Ferris
-    - spencewenski
-  category: Music
-  google_drive_prefix: http://docs.google.com/uc?export=open&id=
-
-# timezone: America/New_York
-
 excerpt_separator: <!--more-->
 
 paginate: 10
+
+highlighter: rouge
 
 permalink: /blog/:title/
 
 defaults:
   # posts
   - scope:
-      # path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
       comments: "true"
   # drafts
   - scope:
-      # path: ""
       type: "drafts"
     values:
       layout: "post"
