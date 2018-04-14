@@ -6,8 +6,10 @@ layout: null
   <channel>
     <title>{{ site.title | xml_escape }} - Unity</title>
     <description>{{ site.description | xml_escape }}</description>
-    <managingEditor>{{ site.author.email }}</managingEditor>
-    <webMaster>{{ site.author.email }}</webMaster>
+    {% if site.author.email %}
+      <managingEditor>{{ site.author.email }}</managingEditor>
+      <webMaster>{{ site.author.email }}</webMaster>
+    {% endif %}
     <link>{{ site.url }}{{ site.baseurl }}/tag/unity/</link>
     <atom:link href="{{ "/tag/unity/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
