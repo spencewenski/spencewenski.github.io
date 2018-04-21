@@ -32,6 +32,12 @@
         <a href="https://keybase.pub/{{ site.author.keybase }}">Keybase</a>
        </li>
       {% endif %}
+
+      {% if site.author.email %}
+      <li>
+        <a href="mailto:{{ site.author.email }}">Email</a>
+      </li>
+      {% endif %}
     </ul>
   </div>
 
