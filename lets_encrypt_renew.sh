@@ -36,7 +36,7 @@ if [ ! -d "$LETS_ENCRYPT_SCRIPT_DIR" ]; then
 fi
 
 # Use '--debug' flag to override experimental warning on mac
-$LETS_ENCRYPT_SCRIPT_DIR/letsencrypt-auto renew --debug --manual-auth-hook $CUR_DIR_NAME/authenticator.sh --manual-public-ip-logging-ok
+$LETS_ENCRYPT_SCRIPT_DIR/letsencrypt-auto renew --debug --manual-auth-hook $CUR_DIR_NAME/authenticator.sh --manual-public-ip-logging-ok --no-bootstrap
 
 echo "
 Now, go to the 'Pages' tab of the gitlab project and paste
