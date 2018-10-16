@@ -1,35 +1,18 @@
 ---
-layout: default
 ---
 
-<div>
-
-  <ul class="list-no-style">
-    <!-- This loops through the paginated posts -->
-    {% for post in paginator.posts %}
-      {% include post_list_item.html %}
-    {% endfor %}
-  </ul>
-
-  <!-- pagination -->
-  <div class="left">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}">
-    {% endif %}
-        <span aria-hidden="true">&larr;</span> Newer
-    {% if paginator.previous_page %}
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div id="container">
+      <div id='clever-string'>Loading - <span id='percent'>0.00</span>%</div>
+      <progress id='progress-bar'></progress>
+      <div></div>
+      <a href="{{ site.baseurl }}/">
+        <img src="{{ site.logo }}" alt="{{ site.title }}"/>
       </a>
-    {% endif %}
-  </div>
-  <!-- next -->
-  <div class="right">
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}">
-    {% endif %}
-        Older <span aria-hidden="true">&rarr;</span>
-    {% if paginator.next_page %}
-      </a>
-    {% endif %}
-  </div>
-  <div class="clear-float margin-below"></div>
-</div>
+    </div>
+    {% include body_scripts.html %}
+  </body>
+</html>
