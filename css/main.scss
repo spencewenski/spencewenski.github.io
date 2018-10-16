@@ -7,55 +7,9 @@
 $base-font-family: Helvetica, Arial, sans-serif;
 $site-title-font-family: "Courier New", Courier, monospace;
 $base-font-size: 16px;
-$brand-color: #428FA8;
-$link-visited-color: #704d89;
-$base-line-height: 1.5;
-$base-margin-large: 25px;
-$base-margin-small: 15px;
-
-$grey-color: #828282;
-$grey-color-light: lighten($grey-color, 40%);
 $font-weight: 300;
-
-$side-bar-width: 250px;
-$side-bar-margin: $base-margin-large;
-
-// Switch layouts for mobile vs desktop
-$tablet-width: 500px;
-$desktop-width: 1024px;
-@mixin mobile {
-  @media (max-width: #{$tablet-width - 1px}) {
-    @content;
-  }
-}
-@mixin tablet {
-  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1}) {
-    @content;
-  }
-}
-@mixin desktop {
-  @media (min-width: #{$desktop-width}) {
-    @content;
-  }
-}
-@mixin tablet_or_larger {
-  @media (min-width: #{$tablet-width}) {
-    @content;
-  }
-}
-@mixin tablet_or_smaller {
-  @media (max-width: #{$desktop-width - 1}) {
-    @content;
-  }
-}
 
 // Import partials from the '_sass' directory
 @import
-  "syntax-highlighting",
-  "global",
-  "header",
-  "post",
-  "side-bar",
-  "footer",
-  "figure"
+  "global"
 ;
