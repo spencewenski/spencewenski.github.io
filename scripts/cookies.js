@@ -5,10 +5,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 const COOKIE_ACCEPTED_NAME = "CookieAccepted";
+const ONE_YEAR_SECONDS = 60*60*24*365;
 
 function cookies() {
   if (!checkAccepted()) {
     showMessage();
+  } else {
+    cookieAccepted();
   }
 }
 
@@ -22,7 +25,7 @@ function checkAccepted() {
 
 function cookieAccepted() {
   document.getElementById("cookie-message").style.display = 'none';
-  document.cookie = COOKIE_ACCEPTED_NAME + "=true";
+  document.cookie = COOKIE_ACCEPTED_NAME + "=true;path=/;samesite=strict;max-age=" + ONE_YEAR_SECONDS;
 }
 
 // https://stackoverflow.com/questions/14573223/set-cookie-and-get-cookie-with-javascript
