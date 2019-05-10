@@ -22,3 +22,17 @@ img {
   text-align: center;
   margin-top: 10%;
 }
+
+#cookie-message {
+    position: absolute;
+    width: 100%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    bottom: 0;
+    background: lightgrey;
+    display: none;
+}
+
+#cookie-message button {
+    margin-top: 1em;
+}

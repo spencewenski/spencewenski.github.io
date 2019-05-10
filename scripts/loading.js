@@ -1,7 +1,7 @@
 'use strict';
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  main();
+  loading();
 });
 
 const INITIAL_DELAY_MS = 100;
@@ -15,7 +15,7 @@ const PROGRESS_BAR_ID = 'progress-bar';
 const CLEVER_STRING_ID = 'clever-string';
 const PERCENT_STRING_ID = 'percent';
 
-function main() {
+function loading() {
   increment(INITIAL_DELAY_MS);
 }
 

@@ -6,12 +6,16 @@
   {% include head.html %}
   <body>
     <div id="container">
-      <div id='clever-string'>Loading - <span id='percent'>0.00</span>%</div>
-      <progress id='progress-bar'></progress>
+      <div id="clever-string">Loading - <span id="percent">0.00</span>%</div>
+      <progress id="progress-bar"></progress>
       <div></div>
       <a href="{{ site.baseurl }}/">
         <img src="{{ site.logo }}" alt="{{ site.title }}"/>
       </a>
+      <div id="cookie-message">
+        <p>We use cookies to remember whether you accepted this cookie usage notice.</p>
+        <button id="cookie-accept" onclick="cookieAccepted();">Accept</button>
+      </div>
     </div>
     {% include body_scripts.html %}
   </body>
