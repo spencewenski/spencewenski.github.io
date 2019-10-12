@@ -1,4 +1,4 @@
-image: ruby:2.1
+image: ruby:2.6
 
 # add bundle cache to 'vendor' for speeding up builds
 cache:
@@ -6,7 +6,6 @@ cache:
     - vendor/
 
 before_script:
-  - gem install bundler
   - bundle install --path vendor
 
 pages:
