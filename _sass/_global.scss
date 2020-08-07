@@ -13,14 +13,19 @@ body {
     font-weight: $font-weight;
 }
 
-img {
+#home-logo {
     width: 10em;
     margin-top: 1em;
 }
 
-#container {
+#home-container {
     text-align: center;
     margin-top: 10%;
+}
+
+#trivia-container {
+    text-align: left;
+    margin: 1em;
 }
 
 #cookie-message {
