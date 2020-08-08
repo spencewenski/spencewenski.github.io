@@ -26,6 +26,7 @@ body {
 #trivia-container {
     text-align: left;
     margin: 1em;
+    font-size: 1.2em;
 }
 
 #cookie-message {
@@ -40,4 +41,20 @@ body {
 
 #cookie-message button {
     margin-top: 1em;
+}
+
+.trivia-grid {
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-size: 1.5em;
+}
+
+.trivia-grid-element {
+    margin: 1em 0.5em 0.5em 0.5em; text-align: center;
+}
+
+.trivia-body {
+    background-color: black;
+    color: #ffbe00;
 }
