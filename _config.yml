@@ -43,3 +43,6 @@ markdown: kramdown
 
 # gems
 gems: [jekyll-paginate]
+
+include:
+  - .well-known
