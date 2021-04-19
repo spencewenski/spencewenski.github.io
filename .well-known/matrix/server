@@ -1,0 +1,8 @@
+---
+layout: none
+permalink: .well-known/matrix/server
+---
+
+{
+    "m.server": "spencewenski.ems.host:443"
+}
